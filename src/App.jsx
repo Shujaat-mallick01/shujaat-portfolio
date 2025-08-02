@@ -1165,7 +1165,7 @@ const App = () => {
                   document.body.removeChild(link);
                 }}
                 variants={itemVariants}
-                className="group bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-4 rounded-full font-semibold flex items-center gap-3 text-sm uppercase tracking-wider shadow-xl hover:shadow-purple-500/30 transition-all duration-300"
+                className="cursor-pointer group bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-4 rounded-full font-semibold flex items-center gap-3 text-sm uppercase tracking-wider shadow-xl hover:shadow-purple-500/30 transition-all duration-300"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}>
                 <FaDownload className="group-hover:animate-bounce" />
