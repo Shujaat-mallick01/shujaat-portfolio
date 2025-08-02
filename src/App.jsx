@@ -714,7 +714,7 @@ const App = () => {
       <section
         id="home"
         className="min-h-screen flex items-center justify-center relative pt-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center py-16">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -100 }}
